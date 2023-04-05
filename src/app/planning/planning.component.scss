@@ -1,5 +1,6 @@
 .margin-card {
     margin: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .toolbar {
@@ -11,9 +12,15 @@
     font-size: 16px;
     padding-top: 4%;
     padding-left: 10%;
+    color: grey;
 }
 
 .card-content {
     display: flex;
     align-items: center;
+    margin: 0px;
+}
+
+.mat-mdc-card-content {
+     padding: 0 0 8px 16px !important;
 }

@@ -1,5 +1,6 @@
 .margin-card {
     margin: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .toolbar {
@@ -28,12 +29,12 @@
     font-size: 16px;
     color: grey;
 }
-//   body {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     height: 100vh; /* set the height of the body to the full height of the viewport */
-//   }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%; /* set the height of the body to the full height of the viewport */
+  }
 //   .classic-button {
 //     font-size: 16px;
 //     border: 1px solid #ccc;
@@ -53,3 +54,11 @@
 //   .classic-button:hover {
 //     background-color: #ebebeb;
 //   }
+
+.custom-button {
+    background-color: #0c4c7c  !important;
+    color: white!important;
+
+    width: 90%;
+    margin: 25%;
+    }
