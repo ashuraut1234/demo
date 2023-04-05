@@ -1,6 +1,5 @@
 .margin-card {
-    margin: 12px;
-    background: #f2f2f2;
+    margin: 16px;
 }
 
 .toolbar {
@@ -9,15 +8,39 @@
 }
 
 .card-content {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .card-container {
     margin-top: 50%;
 }
-
 .back-class {
     position: absolute;
     left: 2%;
     top: 2%;
 }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* set the height of the body to the full height of the viewport */
+  }
+  .classic-button {
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .classic-button:hover {
+    background-color: #ebebeb;
+  }
